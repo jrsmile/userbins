@@ -31,3 +31,10 @@ jobs:
       # Runs a single command using the runners shell
       - name: Fetch
         run: sh fetch.sh
+
+      - name: Create ZIP Release
+      uses: thedoctor0/zip-release@0.7.5
+      with:
+        directory: /tmp/bins/
+        type: 'zip'
+        filename: 'release.zip'
