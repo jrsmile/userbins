@@ -24,7 +24,7 @@ jobs:
         uses: thedoctor0/zip-release@0.7.5
         with:
           directory: /tmp/
-          path: bins/
+          path: bin/
           type: 'zip'
           filename: 'release.zip'
 
