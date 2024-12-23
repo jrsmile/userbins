@@ -21,4 +21,6 @@ chmod +x /tmp/bin/dra
 /tmp/bin/dra download -a -i -o /tmp/bin/ helix-editor/helix
 /tmp/bin/dra download -a -i -o /tmp/bin/ charles-001/dolphie
 /tmp/bin/dra download -a -i -o /tmp/bin/ tulir/gomuks
+/tmp/bin/dra download -a -i -o /tmp/bin/ sharkdp/bat
+/tmp/bin/dra download -a -i -o /tmp/bin/ swsnr/mdcat
 ls -llah /tmp/bin/
