@@ -22,4 +22,5 @@ chmod +x /tmp/bin/dra
 /tmp/bin/dra download -a -i -o /tmp/bin/ sharkdp/bat
 /tmp/bin/dra download -a -i -o /tmp/bin/ swsnr/mdcat
 /tmp/bin/dra download -a -i -o /tmp/bin/ tldr-pages/tlrc
+/tmp/bin/dra download -a -i -o /tmp/bin/ go-task/task
 ls -llah /tmp/bin/
